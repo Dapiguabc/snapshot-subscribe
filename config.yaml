@@ -1,9 +1,9 @@
 mailConn:
   name: "Snapshot"
-  user: "earnup@163.com"
-  pass: "DFPYHJBFEEYTGIOH"
-  host: "smtp.163.com"
-  port: "465"
+  user: "example@gmail.com"
+  pass: "xxxxxxxxxxxxx"
+  host: "smtp.gmail.com"
+  port: "888"
 graphql:
   url: "https://testnet.snapshot.org/graphql"
 
