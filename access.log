@@ -1,0 +1,225 @@
+2021-09-04 12:25:18|6.0061ms|404|GET|/mail|::1|0 B|9 B||
+1630729570189,4.9933ms,404,GET,/mail,::1,0,9
+404{
+  "timestamp": "2021-09-04 12:29:07",
+  "latency": 818342500,
+  "code": 200,
+  "method": "GET",
+  "path": "/snapshot/mail",
+  "ip": "::1",
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-04 15:39:19",
+  "latency": 12715100,
+  "code": 404,
+  "method": "POST",
+  "path": "/snapshot/subscribe",
+  "ip": "127.0.0.1",
+  "request": "a=1",
+  "bytes_received": 3,
+  "bytes_sent": 9
+}
+{
+  "timestamp": "2021-09-04 15:40:08",
+  "latency": 1008400,
+  "code": 400,
+  "method": "GET",
+  "path": "/snapshot/subscribe",
+  "ip": "127.0.0.1",
+  "request": "a=1",
+  "bytes_received": 3,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-04 16:00:34",
+  "latency": 13531000,
+  "code": 400,
+  "method": "POST",
+  "path": "/snapshot/subscribe",
+  "ip": "127.0.0.1",
+  "request": "{\n\"ProposalId\": \"test2\",\n\"Email\": \"3238813014@qq.com\"\n}",
+  "bytes_received": 55,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-04 16:13:16",
+  "latency": 11000100,
+  "code": 400,
+  "method": "POST",
+  "path": "/snapshot/subscribe",
+  "ip": "127.0.0.1",
+  "request": "{\n  \"ProposalId\": \"test2\",\n  \"Email\": \"3238813014@qq.com\"\n}",
+  "bytes_received": 59,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-04 16:13:54",
+  "latency": 11110000,
+  "code": 400,
+  "method": "POST",
+  "path": "/snapshot/subscribe",
+  "ip": "127.0.0.1",
+  "request": "{\"ProposalId\":\"test2\",\"Email\":\"3238813014@qq.com\"}",
+  "bytes_received": 59,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-04 16:16:50",
+  "latency": 42582800,
+  "code": 200,
+  "method": "POST",
+  "path": "/snapshot/subscribe",
+  "ip": "127.0.0.1",
+  "request": "{\"ProposalId\":\"test2\",\"Email\":\"3238813014@qq.com\"}",
+  "bytes_received": 59,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-04 16:19:53",
+  "latency": 47464400,
+  "code": 200,
+  "method": "POST",
+  "path": "/snapshot/subscribe",
+  "ip": "127.0.0.1",
+  "request": "{\"ProposalId\":\"test2\",\"Email\":\"3238813014@qq.com\"}",
+  "bytes_received": 59,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-04 16:21:44",
+  "latency": 55953200,
+  "code": 200,
+  "method": "POST",
+  "path": "/snapshot/subscribe",
+  "ip": "127.0.0.1",
+  "request": "{\"ProposalId\":\"test2\",\"Email\":\"3238813014@qq.com\"}",
+  "bytes_received": 59,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-04 16:24:35",
+  "latency": 14995400,
+  "code": 200,
+  "method": "POST",
+  "path": "/snapshot/subscribe",
+  "ip": "127.0.0.1",
+  "request": "{\"proposalId\":\"test2\",\"email\":\"3238813014@qq.com\"}",
+  "bytes_received": 59,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-04 16:41:52",
+  "latency": 51025700,
+  "code": 200,
+  "method": "POST",
+  "path": "/snapshot/subscribe",
+  "ip": "127.0.0.1",
+  "request": "{\"proposalId\":\"test2\",\"email\":\"3238813014@qq.com\"}",
+  "bytes_received": 59,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-04 16:50:11",
+  "latency": 9097800,
+  "code": 200,
+  "method": "POST",
+  "path": "/snapshot/webhooks",
+  "ip": "127.0.0.1",
+  "request": "{\"id\":\"proposal/QmZ21uS8tVucpaNq2LZCbZUmHhYYXunC1ZS2gPDNWwPWD9\",\"event\":\"proposal/created\",\"space\":\"yam.eth\",\"expire\":1620947058}",
+  "bytes_received": 146,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-04 20:54:57",
+  "latency": 3999900,
+  "code": 404,
+  "method": "OPTIONS",
+  "path": "/snapshot/subscribe",
+  "ip": "127.0.0.1",
+  "bytes_sent": 9
+}
+{
+  "timestamp": "2021-09-04 21:19:03",
+  "latency": 8999100,
+  "code": 404,
+  "method": "OPTIONS",
+  "path": "/snapshot/subscribe",
+  "ip": "127.0.0.1",
+  "bytes_sent": 9
+}
+{
+  "timestamp": "2021-09-04 21:20:12",
+  "latency": 0,
+  "code": 404,
+  "method": "OPTIONS",
+  "path": "/snapshot/subscribe",
+  "ip": "127.0.0.1",
+  "bytes_sent": 9
+}
+{
+  "timestamp": "2021-09-05 09:55:44",
+  "latency": 14844500,
+  "code": 200,
+  "method": "POST",
+  "path": "/snapshot/webhooks",
+  "ip": "127.0.0.1",
+  "request": "{\n  \"id\": \"proposal/QmZ21uS8tVucpaNq2LZCbZUmHhYYXunC1ZS2gPDNWwPWD9\",\n  \"event\": \"proposal/created\",\n  \"space\": \"yam.eth\",\n  \"expire\": 1620947058\n}",
+  "bytes_received": 146,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-05 09:56:28",
+  "latency": 3779000,
+  "code": 200,
+  "method": "POST",
+  "path": "/snapshot/webhooks",
+  "ip": "127.0.0.1",
+  "request": "{\n  \"id\": \"proposal/QmZ21uS8tVucpaNq2LZCbZUmHhYYXunC1ZS2gPDNWwPWD9\",\n  \"event\": \"proposal/start\",\n  \"space\": \"yam.eth\",\n  \"expire\": 1620947058\n}",
+  "bytes_received": 144,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-05 09:58:19",
+  "latency": 1005400,
+  "code": 200,
+  "method": "POST",
+  "path": "/snapshot/webhooks",
+  "ip": "127.0.0.1",
+  "request": "{\n  \"id\": \"proposal/test1\",\n  \"event\": \"proposal/start\",\n  \"space\": \"yam.eth\",\n  \"expire\": 1620947058\n}",
+  "bytes_received": 103,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-05 09:58:53",
+  "latency": 0,
+  "code": 200,
+  "method": "POST",
+  "path": "/snapshot/webhooks",
+  "ip": "127.0.0.1",
+  "request": "{\n  \"id\": \"proposal/test1\",\n  \"event\": \"proposal/start\",\n  \"space\": \"yam.eth\",\n  \"expire\": 1620947058\n}",
+  "bytes_received": 103,
+  "bytes_sent": 10
+}
+{
+  "timestamp": "2021-09-05 12:15:09",
+  "latency": 1529487400,
+  "code": 200,
+  "method": "POST",
+  "path": "/snapshot/webhooks",
+  "ip": "127.0.0.1",
+  "request": "{\n  \"id\": \"proposal/test1\",\n  \"event\": \"proposal/start\",\n  \"space\": \"yam.eth\",\n  \"expire\": 1620947058\n}",
+  "bytes_received": 103,
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2021-09-06 14:19:32",
+  "latency": 5216768800,
+  "code": 200,
+  "method": "POST",
+  "path": "/snapshot/webhooks",
+  "ip": "127.0.0.1",
+  "request": "{\"id\":\"proposal/QmUfpLoTReq3DPpg88b5tSAkiQN18HgDQsK6UNFitRm1Mk\",\"event\":\"proposal/start\",\"space\":\"yam.eth\",\"expire\":1620947058}",
+  "bytes_received": 144,
+  "bytes_sent": 10
+}
