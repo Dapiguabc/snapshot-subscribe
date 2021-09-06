@@ -1,2 +1,2 @@
 # snapshot-subscribe
- The backend serverice for the plugin named Subscribe
+ A backend serverice for the plugin named Subscribe
